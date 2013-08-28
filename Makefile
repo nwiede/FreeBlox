@@ -1,6 +1,6 @@
 all: build run
   
 build:
-  cc -o freeblox main.cpp
+	cc main.cpp -o freeblox
 run:
-  ./freeblox
+	./freeblox
