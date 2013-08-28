@@ -1,3 +1,6 @@
+/*
+FreeBlox, Created primarily by: Lionel07 and in part by Nwiede
+*/
 #include <stdio.h>
 #include <string.h>
 /**
