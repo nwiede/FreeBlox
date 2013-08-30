@@ -9,8 +9,6 @@ Initialisation function
 int debugging = 1;
 int main ( int argc, char *argv[] )
 {
-	printf("FreeBlox (bearded-shame): pre-alpha v. 0.0.0.1\n");
-	printf("[DBG]: Launched with %d options\n",argc - 1);
 	int realargs = argc - 1;
 	if(realargs)
 	{
@@ -29,5 +27,9 @@ int main ( int argc, char *argv[] )
 			printf("Unimplemented\n");
 			return 1;
 		}
+	}
+	else
+	{
+		printf("usage: ./freeblox [args] (Try help)\n");
 	}
 }
